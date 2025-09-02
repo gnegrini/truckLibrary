@@ -182,7 +182,14 @@ namespace TruckLibrary.Tests
         public async Task Update_CallsRepositoryAndReturnsResult()
         {
             // Arrange
-            var truck = new Truck { Model = "FH" };
+            var truck = new Truck { 
+                Model = "FH" ,
+                ManufacturingYear = 2025,
+                ChassisCode = "123456789",
+                Color = "Red",
+                ManufacturingPlant = "Brazil"
+            };
+            
             _repository.Setup(r => r.Update(truck)).ReturnsAsync(truck);
 
             // Act
