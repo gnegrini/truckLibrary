@@ -1,5 +1,5 @@
 # TruckLibrary
-A CRUD project in .NET and Angular.
+A CRUD project in .NET and Angular for managing Trucks!
 
 ## How to run the API:
 The Web API is developed using .NET 8, so you need to download that SDK first.
@@ -17,7 +17,7 @@ Run the API:
 
 3. dotnet run .\TruckLibrary.sln
 
-After that, the API will be running at the address and port configured on your "launchSettings.json" (ex.: https://localhost:5001)
+After that, the API will be running at the address and port configured on your "launchSettings.json" (ex.: http://localhost:5001)
 
 Additionally, there is also a Swagger page that can be used as documentation and test for the API at "/swagger" endpoint.
 
